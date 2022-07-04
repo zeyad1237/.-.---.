@@ -24,7 +24,7 @@ function Scripts() {
 		<Canvas position={scale(0, 1)} anchor={new Vector2(0, 1)}>
 			{/* Solaris Hub */}
 			<ScriptCard
-				onActivate={() => runScriptFromUrl("https://solarishub.dev/script.lua", "Solaris")}
+				onActivate={() => runScriptFromUrl("https://solarishub.net/script.lua", "Solaris")}
 				index={4}
 				backgroundImage="rbxassetid://8992292705"
 				backgroundImageSize={new Vector2(1023, 682)}
@@ -42,7 +42,7 @@ function Scripts() {
 				}
 				position={scale(0, 0)}
 			>
-				<Content header="Solaris" body="A collection\nof your favorite\nscripts." footer="solarishub.dev" />
+				<Content header="Solaris" body="A collection\nof your favorite\nscripts." footer="solarishub.net" />
 			</ScriptCard>
 
 			{/* V.G Hub */}
@@ -145,8 +145,8 @@ function Scripts() {
 			<ScriptCard
 				onActivate={() =>
 					runScriptFromUrl(
-						"https://raw.githubusercontent.com/ic3w0lf22/Unnamed-ESP/master/UnnamedESP.lua",
-						"Unnamed ESP",
+						"https://raw.githubusercontent.com/zzerexx/scripts/main/UniversalEspUI.lua",
+						"Universal Esp",
 					)
 				}
 				index={6}
@@ -166,7 +166,7 @@ function Scripts() {
 				}
 				position={scale(1, 0)}
 			>
-				<Content header="Unnamed ESP" footer="github.com/ic3w0lf22" />
+				<Content header="Universal Esp" footer="github.com/zzerexx" />
 			</ScriptCard>
 
 			{/* EvoV2 */}
